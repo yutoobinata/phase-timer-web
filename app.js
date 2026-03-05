@@ -27,7 +27,7 @@ const phaseList = document.getElementById("phaseList");
 let phases = [
   { name: "教材の読み込み", minutes: 5 },
   { name: "テスト", minutes: 10 },
-  { name: "答え合わせ", minutes: 5 },
+  { name: "振り返り", minutes: 5 },
 ];
 
 let phaseIndex = 0;
@@ -337,5 +337,6 @@ function init() {
   loopToggle.addEventListener("change", renderNow);
   beepToggle.addEventListener("change", () => {});
 }
+
 
 init();
